@@ -1,4 +1,5 @@
 #include "RubiksCube.h"
+#include "RubiksCube.cpp"
 
 class RubiksCube1dArray : public RubiksCube {
     private:

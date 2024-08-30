@@ -1,4 +1,5 @@
 #include "RubiksCube.h"
+#include "RubiksCube.cpp"
 
 class RubiksCubeBitboard : public RubiksCube {
 

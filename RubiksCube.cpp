@@ -15,6 +15,7 @@ char RubiksCube::getColorLetter(COLOR color) {
         case COLOR::ORANGE:
             return 'O';
     }
+    return '\0';
 }
 
 string RubiksCube::getMove(MOVE ind) {
@@ -56,6 +57,7 @@ string RubiksCube::getMove(MOVE ind) {
         case MOVE::B2:
             return "B2";
     }
+    return "\0";
 }
 
 RubiksCube &RubiksCube::move(MOVE ind) {
