@@ -82,6 +82,5 @@ IDDFS combines the benefits of both DFS and BFS. It performs DFS but with a **de
 
 ## References
 
-- [Korf’s Research Paper](#)
-- [GitHub Repository](#)
+- [Korf’s Research Paper](#https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
 
