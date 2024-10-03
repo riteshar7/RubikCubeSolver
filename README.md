@@ -13,8 +13,7 @@ This project is a C++ implementation of a **Rubik's Cube (3x3)** solver that sup
   - **DFS (Depth-First Search)**
   - **BFS (Breadth-First Search)**
   - **IDDFS (Iterative Deepening Depth-First Search)**
-
----
+    
 
 ## Cube Representations
 
@@ -49,8 +48,7 @@ The most compact representation is the **bitboard**. Here, each face of the cube
 - **Bit Storage**:
   - 8 bits per face, each face storing facelet colors in a clockwise direction.
   - This results in 64 bits per face for all 6 faces.
-
----
+    
 
 ## Solving Algorithms
 
@@ -73,7 +71,7 @@ IDDFS combines the benefits of both DFS and BFS. It performs DFS but with a **de
 ### Options:
 - You can choose to use either DFS, BFS, or IDDFS by specifying the desired algorithm in the code or through command-line arguments (depending on your implementation).
 
----
+
 
 ## Future Work
 
@@ -81,13 +79,9 @@ IDDFS combines the benefits of both DFS and BFS. It performs DFS but with a **de
 - Allow users to give input of an unsolved cube which can be solved by algorithm.
 - Add a UI/CLI interface for user-friendly interaction with the solver.
 
----
 
 ## References
 
 - [Korf’s Research Paper](#)
 - [GitHub Repository](#)
 
----
-
-Feel free to contribute or open issues if you encounter any bugs or have suggestions!
