@@ -69,7 +69,8 @@ BFS explores all possible moves at the current level before moving deeper into t
 IDDFS combines the benefits of both DFS and BFS. It performs DFS but with a **depth limit**. If no solution is found within that depth, the limit is increased, and the search is restarted. This allows IDDFS to find the shortest solution without the memory overhead of BFS.
 
 ### Options:
-- You can choose to use either DFS, BFS, or IDDFS by specifying the desired algorithm in the code or through command-line arguments (depending on your implementation).
+- You can choose to use either 3D array, 1D array, or Bitboard representation by specifying the desired representation of the object (Rubik's Cube). The code will generate the cube in readable format for any representation selected.
+- You can choose to use either DFS, BFS, or IDDFS by specifying the desired algorithm in the code (depending on your implementation).
 
 
 
@@ -82,5 +83,5 @@ IDDFS combines the benefits of both DFS and BFS. It performs DFS but with a **de
 
 ## References
 
-- [Korf’s Research Paper](#https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
+- [Korf’s Research Paper](https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
 
