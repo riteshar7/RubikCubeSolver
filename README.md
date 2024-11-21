@@ -26,7 +26,9 @@ The cube is represented as a **3D array** consisting of six **3x3 matrices**, ea
     ```
     cube[face][row][col]
     ```
-    where `face` ranges from 0 to 5, `row` and `col` range from 0 to 2.
+    - `face` ranges from 0 to 5
+    - `row`: ranges from 0 to 2
+    - `column`: ranges from 0 to 2
 
 ### 2. 1D Array Representation
 
@@ -71,9 +73,11 @@ IDDFS combines the benefits of both DFS and BFS. It performs DFS but with a **de
 
 ### 4. Iterative Deepening A* (IDA*)
 IDA* is an optimization of A* that combines the **memory efficiency of Depth-First Search (DFS)** with the **heuristic-guided search of A*.** Instead of maintaining a priority queue, IDA* performs iterative depth-first searches with an increasing cost threshold, defined by the heuristic and path cost.
-        `𝑓(𝑛) = 𝑔(𝑛) + ℎ(𝑛)`, where:
-    - `𝑔(𝑛)` : Cost to reach node `𝑛` from the start node.
-    - `ℎ(𝑛)` : Heuristic estimate of the cost to reach the target from node `𝑛`.
+    ```
+    f(n) = g(n) + h(n)
+    ```
+  - `𝑔(𝑛)` : Cost to reach node `𝑛` from the start node.
+  - `ℎ(𝑛)` : Heuristic estimate of the cost to reach the target from node `𝑛`.
 
 At each iteration, only nodes with `f(n)` below the current threshold are explored. If no solution is found, the threshold is increased to the smallest `f(n)` value exceeding the previous threshold. This ensures memory efficiency while retaining the optimality of A*.
 
